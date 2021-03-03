@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message CPU {
+    // Brand of the CPU {"Intel", "AMD", "ARM"}
+    string brand = 1;
+    // Name of the CPU
+    string name = 2;
+    uint32 num_cores = 3;
+    uint32 num_threads = 4;
+    double min_ghz = 5;
+    double max_ghz = 6;
+}
